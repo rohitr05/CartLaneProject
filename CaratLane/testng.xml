@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="AutomationSuite" parallel="tests">
+
+	<test name="TestCaratLaneInFireFox">
+		<parameter name="node" value="http://10.10.14.137:4444/wd/hub" />
+		<parameter name="browser" value="firefox" />
+		<packages>
+			<package name="script" />
+		</packages>
+	</test>
+	
+	<test name="TestCaratLaneInChrome">
+		<parameter name="node" value="http://10.10.14.137:4444/wd/hub" />
+		<parameter name="browser" value="chrome" />
+		<packages>
+			<package name="script" />
+		</packages>
+	</test>
+	
+</suite> 

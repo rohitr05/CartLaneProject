@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [AutomationSuite]" parallel="tests">
+  <parameter name="node" value="http://10.10.14.137:4444/wd/hub"/>
+  <parameter name="browser" value="chrome"/>
+  <test name="TestCaratLaneInFireFox(failed)" parallel="tests">
+    <parameter name="node" value="http://10.10.14.137:4444/wd/hub"/>
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="script.TestCuffLinksSearchPageisDisplayed">
+        <methods>
+          <include name="testCuffLinksSearchPageisDisplayed"/>
+          <include name="closeApplication"/>
+          <include name="openApplication"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- script.TestCuffLinksSearchPageisDisplayed -->
+      <class name="script.TestSignInPage">
+        <methods>
+          <include name="testValidSignIn"/>
+          <include name="closeApplication"/>
+          <include name="openApplication"/>
+          <include name="testSignInPageIsDisplayed"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- script.TestSignInPage -->
+      <class name="script.TestHomePageIsDisplayed">
+        <methods>
+          <include name="closeApplication"/>
+          <include name="openApplication"/>
+          <include name="openApplication"/>
+          <include name="tearDown"/>
+          <include name="testHomePageIsDisplayed"/>
+        </methods>
+      </class> <!-- script.TestHomePageIsDisplayed -->
+    </classes>
+  </test> <!-- TestCaratLaneInFireFox(failed) -->
+</suite> <!-- Failed suite [AutomationSuite] -->

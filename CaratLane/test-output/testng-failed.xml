@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [AutomationSuite]" parallel="tests">
+  <test name="TestCaratLaneInChrome(failed)" parallel="tests">
+    <parameter name="node" value="http://10.10.14.137:4444/wd/hub"/>
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="script.TestHomePageIsDisplayed">
+        <methods>
+          <include name="openApplication"/>
+          <include name="tearDown"/>
+          <include name="testHomePageIsDisplayed"/>
+        </methods>
+      </class> <!-- script.TestHomePageIsDisplayed -->
+      <class name="script.TestCuffLinksSearchPageisDisplayed">
+        <methods>
+          <include name="testCuffLinksSearchPageisDisplayed"/>
+          <include name="openApplication"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- script.TestCuffLinksSearchPageisDisplayed -->
+      <class name="script.TestSignInPage">
+        <methods>
+          <include name="testValidSignIn"/>
+          <include name="openApplication"/>
+          <include name="testSignInPageIsDisplayed"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- script.TestSignInPage -->
+    </classes>
+  </test> <!-- TestCaratLaneInChrome(failed) -->
+  <test name="TestCaratLaneInFireFox(failed)" parallel="tests">
+    <parameter name="node" value="http://10.10.14.137:4444/wd/hub"/>
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="script.TestHomePageIsDisplayed">
+        <methods>
+          <include name="openApplication"/>
+          <include name="tearDown"/>
+          <include name="testHomePageIsDisplayed"/>
+        </methods>
+      </class> <!-- script.TestHomePageIsDisplayed -->
+      <class name="script.TestCuffLinksSearchPageisDisplayed">
+        <methods>
+          <include name="testCuffLinksSearchPageisDisplayed"/>
+          <include name="openApplication"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- script.TestCuffLinksSearchPageisDisplayed -->
+      <class name="script.TestSignInPage">
+        <methods>
+          <include name="testValidSignIn"/>
+          <include name="openApplication"/>
+          <include name="testSignInPageIsDisplayed"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- script.TestSignInPage -->
+    </classes>
+  </test> <!-- TestCaratLaneInFireFox(failed) -->
+</suite> <!-- Failed suite [AutomationSuite] -->

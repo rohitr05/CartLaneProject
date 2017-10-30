@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
+  <reporter-output>
+    <line>
+      <![CDATA[CaratLane A Tanishq Partnership | Best Diwali Offers | Online Jewellery Shopping Store India]]>
+    </line>
+    <line>
+      <![CDATA[CaratLane A Tanishq Partnership | Best Diwali Offers | Online Jewellery Shopping Store India]]>
+    </line>
+    <line>
+      <![CDATA[Cufflinks for Men - Men's Cufflinks Designs Online in India]]>
+    </line>
+    <line>
+      <![CDATA[Cufflinks for Men - Men's Cufflinks Designs Online in India]]>
+    </line>
+    <line>
+      <![CDATA[Sign In Successfull]]>
+    </line>
+    <line>
+      <![CDATA[Sign In Successfull]]>
+    </line>
+    <line>
+      <![CDATA[Invalid Sign In]]>
+    </line>
+    <line>
+      <![CDATA[Invalid Sign In]]>
+    </line>
+    <line>
+      <![CDATA[Invalid Sign In]]>
+    </line>
+    <line>
+      <![CDATA[Invalid Sign In]]>
+    </line>
+  </reporter-output>
+  <suite name="AutomationSuite" duration-ms="168218" started-at="2017-10-27T10:12:09Z" finished-at="2017-10-27T10:14:57Z">
+    <groups>
+    </groups>
+    <test name="TestCaratLaneInChrome" duration-ms="147026" started-at="2017-10-27T10:12:09Z" finished-at="2017-10-27T10:14:36Z">
+      <class name="script.TestCuffLinksSearchPageisDisplayed">
+        <test-method status="PASS" signature="openApplication(java.lang.String, java.lang.String)[pri:0, instance:script.TestCuffLinksSearchPageisDisplayed@57baeedf]" name="openApplication" is-config="true" duration-ms="7310" started-at="2017-10-27T15:42:25Z" finished-at="2017-10-27T15:42:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://10.10.14.137:4444/wd/hub]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method status="PASS" signature="testCuffLinksSearchPageisDisplayed()[pri:2, instance:script.TestCuffLinksSearchPageisDisplayed@57baeedf]" name="testCuffLinksSearchPageisDisplayed" duration-ms="5977" started-at="2017-10-27T15:42:32Z" finished-at="2017-10-27T15:42:38Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Cufflinks for Men - Men's Cufflinks Designs Online in India]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testCuffLinksSearchPageisDisplayed -->
+        <test-method status="PASS" signature="closeApplication()[pri:0, instance:script.TestCuffLinksSearchPageisDisplayed@57baeedf]" name="closeApplication" is-config="true" duration-ms="168" started-at="2017-10-27T15:42:38Z" finished-at="2017-10-27T15:42:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:script.TestCuffLinksSearchPageisDisplayed@57baeedf]" name="tearDown" is-config="true" duration-ms="0" started-at="2017-10-27T15:42:38Z" finished-at="2017-10-27T15:42:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCuffLinksSearchPageisDisplayed status=SUCCESS method=TestCuffLinksSearchPageisDisplayed.testCuffLinksSearchPageisDisplayed()[pri:2, instance:script.TestCuffLinksSearchPageisDisplayed@57baeedf] output=Cufflinks for Men - Men's Cufflinks Designs Online in India]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- script.TestCuffLinksSearchPageisDisplayed -->
+      <class name="script.TestHomePageIsDisplayed">
+        <test-method status="PASS" signature="openApplication(java.lang.String, java.lang.String)[pri:0, instance:script.TestHomePageIsDisplayed@1794d431]" name="openApplication" is-config="true" duration-ms="15751" started-at="2017-10-27T15:42:09Z" finished-at="2017-10-27T15:42:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://10.10.14.137:4444/wd/hub]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method status="PASS" signature="testHomePageIsDisplayed()[pri:1, instance:script.TestHomePageIsDisplayed@1794d431]" name="testHomePageIsDisplayed" duration-ms="87" started-at="2017-10-27T15:42:25Z" finished-at="2017-10-27T15:42:25Z">
+          <reporter-output>
+            <line>
+              <![CDATA[CaratLane A Tanishq Partnership | Best Diwali Offers | Online Jewellery Shopping Store India]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testHomePageIsDisplayed -->
+        <test-method status="PASS" signature="closeApplication()[pri:0, instance:script.TestHomePageIsDisplayed@1794d431]" name="closeApplication" is-config="true" duration-ms="246" started-at="2017-10-27T15:42:25Z" finished-at="2017-10-27T15:42:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:script.TestHomePageIsDisplayed@1794d431]" name="tearDown" is-config="true" duration-ms="0" started-at="2017-10-27T15:42:25Z" finished-at="2017-10-27T15:42:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testHomePageIsDisplayed status=SUCCESS method=TestHomePageIsDisplayed.testHomePageIsDisplayed()[pri:1, instance:script.TestHomePageIsDisplayed@1794d431] output=CaratLane A Tanishq Partnership | Best Diwali Offers | Online Jewellery Shopping Store India]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- script.TestHomePageIsDisplayed -->
+      <class name="script.TestSignInPage">
+        <test-method status="PASS" signature="openApplication(java.lang.String, java.lang.String)[pri:0, instance:script.TestSignInPage@42e26948]" name="openApplication" is-config="true" duration-ms="6670" started-at="2017-10-27T15:42:38Z" finished-at="2017-10-27T15:42:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://10.10.14.137:4444/wd/hub]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method status="PASS" signature="testSignInPageIsDisplayed()[pri:3, instance:script.TestSignInPage@42e26948]" name="testSignInPageIsDisplayed" duration-ms="7114" started-at="2017-10-27T15:42:45Z" finished-at="2017-10-27T15:42:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSignInPageIsDisplayed -->
+        <test-method status="PASS" signature="closeApplication()[pri:0, instance:script.TestSignInPage@42e26948]" name="closeApplication" is-config="true" duration-ms="224" started-at="2017-10-27T15:42:52Z" finished-at="2017-10-27T15:42:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:script.TestSignInPage@42e26948]" name="tearDown" is-config="true" duration-ms="0" started-at="2017-10-27T15:42:52Z" finished-at="2017-10-27T15:42:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testSignInPageIsDisplayed status=SUCCESS method=TestSignInPage.testSignInPageIsDisplayed()[pri:3, instance:script.TestSignInPage@42e26948] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="openApplication(java.lang.String, java.lang.String)[pri:0, instance:script.TestSignInPage@42e26948]" name="openApplication" is-config="true" duration-ms="5699" started-at="2017-10-27T15:42:52Z" finished-at="2017-10-27T15:42:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://10.10.14.137:4444/wd/hub]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method status="PASS" signature="testValidSignIn()[pri:4, instance:script.TestSignInPage@42e26948]" name="testValidSignIn" duration-ms="97456" started-at="2017-10-27T15:42:58Z" finished-at="2017-10-27T15:44:36Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Sign In Successfull]]>
+            </line>
+            <line>
+              <![CDATA[Invalid Sign In]]>
+            </line>
+            <line>
+              <![CDATA[Invalid Sign In]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testValidSignIn -->
+        <test-method status="PASS" signature="closeApplication()[pri:0, instance:script.TestSignInPage@42e26948]" name="closeApplication" is-config="true" duration-ms="250" started-at="2017-10-27T15:44:36Z" finished-at="2017-10-27T15:44:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:script.TestSignInPage@42e26948]" name="tearDown" is-config="true" duration-ms="1" started-at="2017-10-27T15:44:36Z" finished-at="2017-10-27T15:44:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testValidSignIn status=SUCCESS method=TestSignInPage.testValidSignIn()[pri:4, instance:script.TestSignInPage@42e26948] output=Sign In Successfull]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- script.TestSignInPage -->
+    </test> <!-- TestCaratLaneInChrome -->
+    <test name="TestCaratLaneInFireFox" duration-ms="168218" started-at="2017-10-27T10:12:09Z" finished-at="2017-10-27T10:14:57Z">
+      <class name="script.TestHomePageIsDisplayed">
+        <test-method status="PASS" signature="openApplication(java.lang.String, java.lang.String)[pri:0, instance:script.TestHomePageIsDisplayed@4501b7af]" name="openApplication" is-config="true" duration-ms="25910" started-at="2017-10-27T15:42:09Z" finished-at="2017-10-27T15:42:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://10.10.14.137:4444/wd/hub]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method status="PASS" signature="testHomePageIsDisplayed()[pri:1, instance:script.TestHomePageIsDisplayed@4501b7af]" name="testHomePageIsDisplayed" duration-ms="18" started-at="2017-10-27T15:42:35Z" finished-at="2017-10-27T15:42:35Z">
+          <reporter-output>
+            <line>
+              <![CDATA[CaratLane A Tanishq Partnership | Best Diwali Offers | Online Jewellery Shopping Store India]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testHomePageIsDisplayed -->
+        <test-method status="PASS" signature="closeApplication()[pri:0, instance:script.TestHomePageIsDisplayed@4501b7af]" name="closeApplication" is-config="true" duration-ms="165" started-at="2017-10-27T15:42:35Z" finished-at="2017-10-27T15:42:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:script.TestHomePageIsDisplayed@4501b7af]" name="tearDown" is-config="true" duration-ms="0" started-at="2017-10-27T15:42:35Z" finished-at="2017-10-27T15:42:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testHomePageIsDisplayed status=SUCCESS method=TestHomePageIsDisplayed.testHomePageIsDisplayed()[pri:1, instance:script.TestHomePageIsDisplayed@4501b7af] output=CaratLane A Tanishq Partnership | Best Diwali Offers | Online Jewellery Shopping Store India]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- script.TestHomePageIsDisplayed -->
+      <class name="script.TestCuffLinksSearchPageisDisplayed">
+        <test-method status="PASS" signature="openApplication(java.lang.String, java.lang.String)[pri:0, instance:script.TestCuffLinksSearchPageisDisplayed@5b275dab]" name="openApplication" is-config="true" duration-ms="10561" started-at="2017-10-27T15:42:35Z" finished-at="2017-10-27T15:42:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://10.10.14.137:4444/wd/hub]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method status="PASS" signature="testCuffLinksSearchPageisDisplayed()[pri:2, instance:script.TestCuffLinksSearchPageisDisplayed@5b275dab]" name="testCuffLinksSearchPageisDisplayed" duration-ms="4404" started-at="2017-10-27T15:42:46Z" finished-at="2017-10-27T15:42:50Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Cufflinks for Men - Men's Cufflinks Designs Online in India]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testCuffLinksSearchPageisDisplayed -->
+        <test-method status="PASS" signature="closeApplication()[pri:0, instance:script.TestCuffLinksSearchPageisDisplayed@5b275dab]" name="closeApplication" is-config="true" duration-ms="47" started-at="2017-10-27T15:42:50Z" finished-at="2017-10-27T15:42:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:script.TestCuffLinksSearchPageisDisplayed@5b275dab]" name="tearDown" is-config="true" duration-ms="0" started-at="2017-10-27T15:42:50Z" finished-at="2017-10-27T15:42:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCuffLinksSearchPageisDisplayed status=SUCCESS method=TestCuffLinksSearchPageisDisplayed.testCuffLinksSearchPageisDisplayed()[pri:2, instance:script.TestCuffLinksSearchPageisDisplayed@5b275dab] output=Cufflinks for Men - Men's Cufflinks Designs Online in India]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- script.TestCuffLinksSearchPageisDisplayed -->
+      <class name="script.TestSignInPage">
+        <test-method status="PASS" signature="openApplication(java.lang.String, java.lang.String)[pri:0, instance:script.TestSignInPage@523884b2]" name="openApplication" is-config="true" duration-ms="12951" started-at="2017-10-27T15:42:50Z" finished-at="2017-10-27T15:43:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://10.10.14.137:4444/wd/hub]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method status="PASS" signature="testSignInPageIsDisplayed()[pri:3, instance:script.TestSignInPage@523884b2]" name="testSignInPageIsDisplayed" duration-ms="9104" started-at="2017-10-27T15:43:03Z" finished-at="2017-10-27T15:43:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSignInPageIsDisplayed -->
+        <test-method status="PASS" signature="closeApplication()[pri:0, instance:script.TestSignInPage@523884b2]" name="closeApplication" is-config="true" duration-ms="35" started-at="2017-10-27T15:43:12Z" finished-at="2017-10-27T15:43:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:script.TestSignInPage@523884b2]" name="tearDown" is-config="true" duration-ms="1" started-at="2017-10-27T15:43:12Z" finished-at="2017-10-27T15:43:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testSignInPageIsDisplayed status=SUCCESS method=TestSignInPage.testSignInPageIsDisplayed()[pri:3, instance:script.TestSignInPage@523884b2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="openApplication(java.lang.String, java.lang.String)[pri:0, instance:script.TestSignInPage@523884b2]" name="openApplication" is-config="true" duration-ms="13007" started-at="2017-10-27T15:43:12Z" finished-at="2017-10-27T15:43:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://10.10.14.137:4444/wd/hub]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method status="PASS" signature="testValidSignIn()[pri:4, instance:script.TestSignInPage@523884b2]" name="testValidSignIn" duration-ms="91888" started-at="2017-10-27T15:43:25Z" finished-at="2017-10-27T15:44:57Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Sign In Successfull]]>
+            </line>
+            <line>
+              <![CDATA[Invalid Sign In]]>
+            </line>
+            <line>
+              <![CDATA[Invalid Sign In]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testValidSignIn -->
+        <test-method status="PASS" signature="closeApplication()[pri:0, instance:script.TestSignInPage@523884b2]" name="closeApplication" is-config="true" duration-ms="59" started-at="2017-10-27T15:44:57Z" finished-at="2017-10-27T15:44:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:script.TestSignInPage@523884b2]" name="tearDown" is-config="true" duration-ms="0" started-at="2017-10-27T15:44:57Z" finished-at="2017-10-27T15:44:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testValidSignIn status=SUCCESS method=TestSignInPage.testValidSignIn()[pri:4, instance:script.TestSignInPage@523884b2] output=Sign In Successfull]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- script.TestSignInPage -->
+    </test> <!-- TestCaratLaneInFireFox -->
+  </suite> <!-- AutomationSuite -->
+</testng-results>
